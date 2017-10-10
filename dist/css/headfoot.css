@@ -1,0 +1,222 @@
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  border: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+a:focus {
+  outline: none;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft YaHei;
+  min-width: 1310px;
+  color: #333;
+}
+
+img {
+  border: 0;
+}
+
+.header .link-bar {
+  background-color: #0a4374;
+  height: 37px;
+  line-height: 37px;
+  color: #fff;
+}
+.header .link-bar a {
+  color: #fff;
+}
+.header .link-bar a:hover {
+  color: #00f6ff;
+}
+.header .link-bar a.on {
+  color: #00f6ff;
+}
+.header .head-bar {
+  background: url("../img/head.jpg") no-repeat center;
+  height: 124px;
+}
+.header .head-bar .logo {
+  display: block;
+  width: 364px;
+  height: 64px;
+  padding-top: 25px;
+}
+.header .head-bar .search {
+  background: url("../img/search01_03.gif") no-repeat bottom;
+  width: 386px;
+  height: 34px;
+  line-height: 34px;
+  padding-top: 44px;
+}
+.header .head-bar .search input {
+  border: 0;
+  outline: 0;
+  width: 310px;
+  color: #fff;
+  background: #1259a7;
+  margin-left: 20px;
+  font-size: 14px;
+  margin-top: 1px;
+  vertical-align: top;
+  padding: 7px 0;
+}
+.header .head-bar .search a {
+  display: inline-block;
+  width: 50px;
+  height: 34px;
+}
+.header .nav-bar {
+  height: 82px;
+  background: url("../img/nav-shadow.jpg") bottom repeat-x;
+}
+.header .nav-bar .nav-one {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 82px;
+   position: relative;
+  _z-index: 1;
+}
+.header .nav-bar .nav-one .item {
+  line-height: 74px;
+  float: left;
+  position: relative;
+  _z-index: 1;
+}
+.header .nav-bar .nav-one .item a {
+  width: 140px;
+  display: inline-block;
+  font-size: 20px;
+  color: #0f6aa1;
+  text-align: center;
+  border-right: 1px solid #fff;
+  border-left: 1px solid  #fff;
+  position: relative;
+  _z-index: 1;
+}
+.header .nav-bar .nav-one .item a:hover {
+  color: #70c5fb;
+}
+.header .nav-bar .nav-one .item a.hover {
+  border-right: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  color: #70c5fb;
+}
+.header .nav-bar .nav-two {
+  display: none;
+  position: absolute;
+  border: 1px solid #dadada;
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+  top: 74px;
+  left: 0;
+  list-style: none;
+  z-index: 1000;
+  background: #fff;
+}
+.header .nav-bar .nav-two .item2 {
+  height: 40px;
+  line-height: 40px;
+}
+.header .nav-bar .nav-two .item2 a {
+  width: 138px;
+  display: inline-block;
+  height: 40px;
+  font-size: 16px;
+  color: #0f6aa1;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+}
+.header .nav-bar .nav-two .item2 a:hover {
+  background: #0f6aa1;
+  color: #fff;
+}
+
+.footer {
+  background: #004f98;
+}
+.footer .foot-top {
+  margin-bottom: 30px;
+}
+.footer .foot-top .contact {
+  width: 960px;
+  margin-right: 35px;
+  float: left;
+}
+.footer .foot-top .contact .logo {
+  padding: 30px 0 15px 0;
+  border-bottom: 1px solid #004687;
+}
+.footer .foot-top .contact .box-wrap {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.footer .foot-top .contact .box-wrap li {
+  float: left;
+}
+.footer .foot-top .contact .box-wrap li p {
+  color: #7cc0ff;
+  text-align: left;
+  line-height: 30px;
+}
+.footer .foot-top .contact .box-wrap .box1 {
+  width: 285px;
+}
+.footer .foot-top .contact .box-wrap .box2 {
+  width: 270px;
+}
+.footer .foot-top .contact .box-wrap .box3 {
+  width: 280px;
+}
+.footer .foot-top .contact .box-wrap .box4 {
+  width: 118px;
+  text-align: center;
+}
+.footer .foot-top .contact .box-wrap .box4 img {
+  display: block;
+  margin: 0 auto;
+}
+.footer .foot-top .some-link {
+  float: left;
+  width: 248px;
+  margin-top: 30px;
+}
+.footer .foot-top .some-link h4 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 75px;
+  height: 75px;
+  font-weight: 400;
+}
+.footer .foot-top .some-link select {
+  border-color: #006bcc;
+  width: 247px;
+  color: #fff;
+  background: #003d74;
+  margin-bottom: 10px;
+  display: block;
+  padding: 6px;
+  outline: 0;
+}
+.footer .copyright {
+  background: #002a53;
+  color: #0058ad;
+  text-align: center;
+  height: 47px;
+  line-height: 47px;
+  font-size: 12px;
+}

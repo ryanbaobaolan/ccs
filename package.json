@@ -20,5 +20,8 @@
     "gulp-ruby-sass": "*",
     "gulp-uglify": "*",
     "gulp-watch": "*"
+  },
+  "devDependencies": {
+    "gulp-ruby-sass": "^2.1.1"
   }
 }

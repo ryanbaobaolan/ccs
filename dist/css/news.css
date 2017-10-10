@@ -1,0 +1,183 @@
+.news .banner-wrap {
+  padding: 30px 0;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+.news .banner {
+  background: url("../img/banner2.gif") no-repeat center;
+  height: 143px;
+  position: relative;
+}
+.news .banner .infor {
+  color: #fff;
+  width: 775px;
+  margin-left: 55px;
+}
+.news .banner .infor h3 {
+  font-size: 24px;
+  padding: 26px 0 10px;
+}
+.news .banner .infor p {
+  line-height: 30px;
+}
+.news .banner .reg {
+  position: absolute;
+  right: 42px;
+  top: 48px;
+}
+.news .news-nav {
+  width: 253px;
+  text-align: center;
+}
+.news .news-nav .caption {
+  font-size: 30px;
+  color: #015ba8;
+  height: 81px;
+  line-height: 81px;
+  border-bottom: 2px solid #015ba8;
+  font-weight: 400;
+}
+.news .news-nav ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+.news .news-nav ul li a {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  line-height: 56px;
+  background: #72ace1;
+  width: 253px;
+}
+.news .news-nav ul li a.on {
+  background: #fff;
+  color: #72ace1;
+  background: url("../img/tab-on.gif") left no-repeat;
+}
+.news .news-content {
+  width: 1056px;
+}
+.news .news-content .breadcrumb {
+  line-height: 81px;
+  height: 81px;
+  border-bottom: 2px solid #ebebeb;
+}
+.news .news-content .breadcrumb a {
+  color: #666;
+}
+.news .news-content .contant-wrap {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  width: 1015px;
+}
+.news .news-content .contant-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed #ebebeb;
+  width: 1010px;
+}
+.news .news-content .contant-wrap ul li {
+  overflow: hidden;
+  zoom: 1;
+}
+.news .news-content .contant-wrap ul li a {
+  display: block;
+  padding: 8px 0;
+  _padding: 4px 0;
+  width: 800px;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  float: left;
+  border-top: 1px dashed #fff;
+  border-bottom: 1px dashed #fff;
+}
+.news .news-content .contant-wrap ul li a:hover {
+  color: #ff7800;
+  border-top: 1px dashed #ff7800;
+  border-bottom: 1px dashed #ff7800;
+}
+.news .news-content .contant-wrap ul li span {
+  padding: 8px 0;
+  _padding: 4px 0;
+  color: #999;
+  float: right;
+}
+.news .news-content .page {
+  width: 628px;
+  margin: 50px auto;
+}
+.news .news-content .page .pre {
+  width: 66px;
+  height: 66px;
+  background: url("../img/page-left.gif") no-repeat;
+  display: inline-block;
+  margin-right: 20px;
+}
+.news .news-content .page .next {
+  width: 66px;
+  height: 66px;
+  background: url("../img/page-right.gif") no-repeat;
+  display: inline-block;
+}
+.news .news-content .page ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.news .news-content .page ul li {
+  float: left;
+}
+.news .news-content .page ul li a {
+  display: inline-block;
+  background: url("../img/page.gif");
+  width: 66px;
+  height: 66px;
+  color: #666;
+  line-height: 66px;
+  text-align: center;
+  margin-right: 20px;
+}
+.news .news-content .page ul li a.on {
+  background: url("../img/page-on.gif");
+  color: #fff;
+}
+.news .news-content .news-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 116px;
+  height: 116px;
+  border-bottom: 1px solid #ebebeb;
+  text-align: center;
+}
+.news .news-content .news-con {
+  padding: 30px 0;
+}
+.news .news-content .news-con p {
+  line-height: 35px;
+  font-size: 16px;
+}
+
+.btn-red-l {
+  display: block;
+  background: url("../img/btn-red-l.gif") no-repeat;
+  width: 158px;
+  height: 47px;
+  text-align: center;
+  color: #fff;
+  line-height: 47px;
+}
+
+.btn-orange-l {
+  display: block;
+  background: url("../img/btn-orange-l.gif") no-repeat;
+  width: 158px;
+  height: 47px;
+  text-align: center;
+  color: #fff;
+  line-height: 47px;
+}
